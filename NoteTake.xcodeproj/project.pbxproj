@@ -12,10 +12,11 @@
 		3BB7B5021BEFDBCF00A747E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7B5011BEFDBCF00A747E4 /* ViewController.m */; };
 		3BB7B5051BEFDBCF00A747E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB7B5031BEFDBCF00A747E4 /* Main.storyboard */; };
 		3BB7B5081BEFDBCF00A747E4 /* NoteTake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7B5061BEFDBCF00A747E4 /* NoteTake.xcdatamodeld */; };
-		3BB7B50A1BEFDBCF00A747E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB7B5091BEFDBCF00A747E4 /* Assets.xcassets */; };
 		3BB7B50D1BEFDBCF00A747E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB7B50B1BEFDBCF00A747E4 /* LaunchScreen.storyboard */; };
 		3BB7B5181BEFDBCF00A747E4 /* NoteTakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7B5171BEFDBCF00A747E4 /* NoteTakeTests.m */; };
 		3BB7B5231BEFDBCF00A747E4 /* NoteTakeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7B5221BEFDBCF00A747E4 /* NoteTakeUITests.m */; };
+		3BB7B5321BEFDE7700A747E4 /* MasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7B5311BEFDE7700A747E4 /* MasterTableViewController.m */; };
+		3BB7B5341BF0004900A747E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB7B5331BF0004900A747E4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,6 @@
 		3BB7B5011BEFDBCF00A747E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3BB7B5041BEFDBCF00A747E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BB7B5071BEFDBCF00A747E4 /* NoteTake.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteTake.xcdatamodel; sourceTree = "<group>"; };
-		3BB7B5091BEFDBCF00A747E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BB7B50C1BEFDBCF00A747E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BB7B50E1BEFDBCF00A747E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BB7B5131BEFDBCF00A747E4 /* NoteTakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteTakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +53,9 @@
 		3BB7B51E1BEFDBCF00A747E4 /* NoteTakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteTakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB7B5221BEFDBCF00A747E4 /* NoteTakeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteTakeUITests.m; sourceTree = "<group>"; };
 		3BB7B5241BEFDBCF00A747E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB7B5301BEFDE7700A747E4 /* MasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableViewController.h; sourceTree = "<group>"; };
+		3BB7B5311BEFDE7700A747E4 /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableViewController.m; sourceTree = "<group>"; };
+		3BB7B5331BF0004900A747E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +110,10 @@
 				3BB7B4FE1BEFDBCF00A747E4 /* AppDelegate.m */,
 				3BB7B5001BEFDBCF00A747E4 /* ViewController.h */,
 				3BB7B5011BEFDBCF00A747E4 /* ViewController.m */,
+				3BB7B5301BEFDE7700A747E4 /* MasterTableViewController.h */,
+				3BB7B5311BEFDE7700A747E4 /* MasterTableViewController.m */,
 				3BB7B5031BEFDBCF00A747E4 /* Main.storyboard */,
-				3BB7B5091BEFDBCF00A747E4 /* Assets.xcassets */,
+				3BB7B5331BF0004900A747E4 /* Assets.xcassets */,
 				3BB7B50B1BEFDBCF00A747E4 /* LaunchScreen.storyboard */,
 				3BB7B50E1BEFDBCF00A747E4 /* Info.plist */,
 				3BB7B5061BEFDBCF00A747E4 /* NoteTake.xcdatamodeld */,
@@ -210,6 +215,7 @@
 				TargetAttributes = {
 					3BB7B4F61BEFDBCF00A747E4 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 35DUXXMQX2;
 					};
 					3BB7B5121BEFDBCF00A747E4 = {
 						CreatedOnToolsVersion = 7.1;
@@ -247,7 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BB7B50D1BEFDBCF00A747E4 /* LaunchScreen.storyboard in Resources */,
-				3BB7B50A1BEFDBCF00A747E4 /* Assets.xcassets in Resources */,
+				3BB7B5341BF0004900A747E4 /* Assets.xcassets in Resources */,
 				3BB7B5051BEFDBCF00A747E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB7B5321BEFDE7700A747E4 /* MasterTableViewController.m in Sources */,
 				3BB7B5081BEFDBCF00A747E4 /* NoteTake.xcdatamodeld in Sources */,
 				3BB7B5021BEFDBCF00A747E4 /* ViewController.m in Sources */,
 				3BB7B4FF1BEFDBCF00A747E4 /* AppDelegate.m in Sources */,
@@ -417,10 +424,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NoteTake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.NoteTake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -428,10 +438,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NoteTake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.NoteTake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

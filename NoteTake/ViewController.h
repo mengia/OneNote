@@ -7,8 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+
+
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *topicName;
+@property (weak, nonatomic) IBOutlet UITextView *noteText;
+
+@property(strong,nonatomic)NSManagedObject *devices;
+- (IBAction)cancel:(id)sender;
+- (IBAction)save:(id)sender;
 
 
 @end
